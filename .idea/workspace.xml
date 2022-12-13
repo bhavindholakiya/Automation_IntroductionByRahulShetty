@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Basics of Variables.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Arrays.java" afterDir="false" />
+    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Basics of Arrays">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/ForLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
       <recent name="practical" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Arrays">
+  <component name="RunManager" selected="Application.ForLoop">
     <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasics.Arrays" />
       <module name="Automation_IntroductionByRahulShetty" />
@@ -63,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_Intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practical.Selenium_Intro" />
+    <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics.ForLoop" />
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practical.*" />
+          <option name="PATTERN" value="JavaBasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,18 +133,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Arrays" />
+      <item itemvalue="Application.ForLoop" />
       <item itemvalue="Application.Variables" />
-      <item itemvalue="Application.Selenium_Intro" />
       <item itemvalue="TestNG.TestNGExample" />
       <item itemvalue="TestNG.TestNGSuite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForLoop" />
         <item itemvalue="Application.Arrays" />
         <item itemvalue="Application.Variables" />
         <item itemvalue="TestNG.TestNGExample" />
         <item itemvalue="TestNG.TestNGSuite" />
-        <item itemvalue="Application.Selenium_Intro" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670938382422</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Basics of Arrays">
+      <created>1670939174070</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670939174070</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +203,8 @@
     <MESSAGE value="Selenium Introduction with all popular browser drivers." />
     <MESSAGE value="Introduce Test case execution with TestNG" />
     <MESSAGE value="Basics of Variables." />
-    <option name="LAST_COMMIT_MESSAGE" value="Basics of Variables." />
+    <MESSAGE value="Basics of Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basics of Arrays" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
