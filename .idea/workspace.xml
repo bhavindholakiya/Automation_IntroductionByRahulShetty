@@ -49,7 +49,7 @@
       <recent name="practical" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ForLoop">
+  <component name="RunManager" selected="Application.IfElseCondition">
     <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasics.Arrays" />
       <module name="Automation_IntroductionByRahulShetty" />
@@ -65,6 +65,19 @@
     </configuration>
     <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasics.ForLoop" />
+      <module name="Automation_IntroductionByRahulShetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaBasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IfElseCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics.IfElseCondition" />
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
@@ -106,45 +119,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGSuite" type="TestNG" temporary="true">
-      <module name="Automation_IntroductionByRahulShetty" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practical.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Arrays" />
       <item itemvalue="Application.ForLoop" />
+      <item itemvalue="Application.IfElseCondition" />
       <item itemvalue="Application.Variables" />
       <item itemvalue="TestNG.TestNGExample" />
-      <item itemvalue="TestNG.TestNGSuite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IfElseCondition" />
         <item itemvalue="Application.ForLoop" />
         <item itemvalue="Application.Arrays" />
         <item itemvalue="Application.Variables" />
         <item itemvalue="TestNG.TestNGExample" />
-        <item itemvalue="TestNG.TestNGSuite" />
       </list>
     </recent_temporary>
   </component>
