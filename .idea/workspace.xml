@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practical/Selenium_Intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practical/TestNGExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Introduce Test case execution with TestNG">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,30 +32,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Automation/Automation_IntroductionByRahulShetty/testng.xml&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/Automation/Automation_IntroductionByRahulShetty/testng.xml",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="practical" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNGExample">
+  <component name="RunManager" selected="Application.Variables">
     <configuration name="Selenium_Intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practical.Selenium_Intro" />
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practical.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics.Variables" />
+      <module name="Automation_IntroductionByRahulShetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaBasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +119,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Variables" />
       <item itemvalue="Application.Selenium_Intro" />
       <item itemvalue="TestNG.TestNGExample" />
       <item itemvalue="TestNG.TestNGSuite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Variables" />
         <item itemvalue="TestNG.TestNGExample" />
         <item itemvalue="TestNG.TestNGSuite" />
         <item itemvalue="Application.Selenium_Intro" />
@@ -134,6 +142,21 @@
       <option name="presentableId" value="Default" />
       <updated>1670751140846</updated>
     </task>
+    <task id="LOCAL-00001" summary="Selenium Introduction with all popular browser drivers.">
+      <created>1670851305661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670851305661</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Introduce Test case execution with TestNG">
+      <created>1670851349402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670851349402</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,5 +169,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Selenium Introduction with all popular browser drivers." />
+    <MESSAGE value="Introduce Test case execution with TestNG" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduce Test case execution with TestNG" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
