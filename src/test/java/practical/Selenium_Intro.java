@@ -10,11 +10,11 @@ public class Selenium_Intro {
 	public static void main(String[] args) {		
 
 		String baseURL = "https://rahulshettyacademy.com/";
-		String browser = "edge";
+		String browser = "chrome";
 		WebDriver driver = null;
 		
 		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Bhavin\\Downloads\\chromedriver\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Bhavin\\Downloads\\chromedriver\\chromedriver.exe");
 			// In latest Selenium 4.6.0 version selenium introduce SeleniumManager so we don't need to write above line to invoke browser driver.
 			
 			driver = new ChromeDriver();

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Basics of Arrays">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/ForLoop.java" afterDir="false" />
+    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Basics of If Else conditions">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/ArrayListBasics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practical/Selenium_Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practical/Selenium_Intro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.editor.code.editing"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -49,7 +50,20 @@
       <recent name="practical" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IfElseCondition">
+  <component name="RunManager" selected="Application.ArrayListBasics">
+    <configuration name="ArrayListBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics.ArrayListBasics" />
+      <module name="Automation_IntroductionByRahulShetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaBasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasics.Arrays" />
       <module name="Automation_IntroductionByRahulShetty" />
@@ -89,20 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.Variables" />
-      <module name="Automation_IntroductionByRahulShetty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaBasics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGExample" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_Intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practical.Selenium_Intro" />
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
@@ -110,29 +112,24 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practical" />
-      <option name="MAIN_CLASS_NAME" value="practical.TestNGExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Selenium_Intro" />
+      <item itemvalue="Application.ArrayListBasics" />
       <item itemvalue="Application.Arrays" />
       <item itemvalue="Application.ForLoop" />
       <item itemvalue="Application.IfElseCondition" />
-      <item itemvalue="Application.Variables" />
-      <item itemvalue="TestNG.TestNGExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IfElseCondition" />
+        <item itemvalue="Application.ArrayListBasics" />
         <item itemvalue="Application.ForLoop" />
+        <item itemvalue="Application.Selenium_Intro" />
+        <item itemvalue="Application.IfElseCondition" />
         <item itemvalue="Application.Arrays" />
-        <item itemvalue="Application.Variables" />
-        <item itemvalue="TestNG.TestNGExample" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670939174070</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Basics of For Loops and Enhanced For Loop">
+      <created>1670940089292</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670940089292</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Basics of If Else conditions">
+      <created>1670940304589</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670940304589</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +203,9 @@
     <MESSAGE value="Introduce Test case execution with TestNG" />
     <MESSAGE value="Basics of Variables." />
     <MESSAGE value="Basics of Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basics of Arrays" />
+    <MESSAGE value="Basics of For Loops and Enhanced For Loop" />
+    <MESSAGE value="Basics of If Else conditions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basics of If Else conditions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
