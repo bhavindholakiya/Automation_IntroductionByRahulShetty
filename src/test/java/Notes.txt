@@ -1,0 +1,18 @@
+1. What is Interface in Java?
+    An interface is a group of related methods with empty bodies.
+    Its class responsibility to implement the methods declared in the Interface
+    When class agreed to implement the interface, they must need to provide implementation/bodies to all the defined methods in Interface
+    In simple terms, Interface enforces the Contract to class to follow.
+
+2. WebDriver is an Interface which provides set of Browser Automation methods with empty bodies(Abstract Methods)
+    Classes like ChromeDriver, FireFoxDriver, EdgeDriver, SafariDriver and Provide their own implementation to the WebDriver methods.
+
+3. We need to create the object of the class to access the methods
+- ChromeDriver is a class and which allows you to access all the methods that implemented to automate Chrome browser
+    getTitle(), getUrl(), getText(), close(), quite() all these different methods are available ChromeDriver class to automate.
+- We need to create the object of the clas to access the mthords present in the class.
+    ChromeDriver driver = new ChromeDriver();
+    driver object here has access to all the methods of ChromeDriver
+
+    WebDriver driver = new ChromeDriver();
+    driver object here has access to the methods of ChromeDriver which are defined in WebDriver interface.
