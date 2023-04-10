@@ -1,6 +1,6 @@
 package JavaBasics;
 
-public class Arrays {
+public class Ch1_Pro2_Arrays {
     public static void main(String[] args) {
 
         int num[] = new int[5];

@@ -1,6 +1,6 @@
 package JavaBasics;
 
-public class Variables {
+public class Ch1_Pro1_Variables {
     public static void main(String[] args) {
 
         int myNum = 5;

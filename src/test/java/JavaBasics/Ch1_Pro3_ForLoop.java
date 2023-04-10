@@ -1,6 +1,6 @@
 package JavaBasics;
 
-public class ForLoop {
+public class Ch1_Pro3_ForLoop {
     public static void main(String[] args) {
         int num[] = new int[5];
         int myNum[] = {1,2,3,4,5,8,6,9,8,15};
@@ -24,6 +24,7 @@ public class ForLoop {
         System.out.println("---------------------------------------------");
 
         //Enhanced For Loop
+        System.out.println("This is enhanced for loop concept.");
         for (String s : names)
         {
             System.out.println(s);

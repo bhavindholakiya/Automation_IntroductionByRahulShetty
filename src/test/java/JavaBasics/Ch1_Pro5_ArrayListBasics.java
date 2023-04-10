@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ArrayListBasics {
+public class Ch1_Pro5_ArrayListBasics {
     public static void main(String[] args) {
 
         // In Java, ArrayList is a class of Collections framework. It implements List<E>, Collection<E>, Iterable<E>,
