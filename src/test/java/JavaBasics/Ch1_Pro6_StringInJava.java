@@ -1,6 +1,6 @@
 package JavaBasics;
 
-public class StringInJava {
+public class Ch1_Pro6_StringInJava {
     public static void main(String[] args) {
         // Q. What is String in Java?
         // => In JAVA Terminology, String is an Object in Java that represents sequence of characters.

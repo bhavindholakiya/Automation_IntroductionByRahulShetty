@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Introducing Class name and Css Selector locators to identify elements">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/PrimeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/ArrayListBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro5_ArrayListBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro2_Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro3_ForLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/IfElseCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro4_IfElseCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro1_Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro5_ArrayListBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro5_ArrayListBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/MethodsBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro7_MethodsBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/StringInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro6_StringInJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +41,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Automation/Automation_IntroductionByRahulShetty",
-    "project.structure.last.edited": "SDKs",
+    "last_opened_file_path": "E:/Automation/Automation_IntroductionByRahulShetty/src/main/resources",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "terminal"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,9 +56,9 @@
       <recent name="practical" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumber">
-    <configuration name="Ch1_Pro3_ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.Ch1_Pro3_ForLoop" />
+  <component name="RunManager" selected="Application.Ch1_Pro7_MethodsBasics">
+    <configuration name="Ch1_Pro5_ArrayListBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics.Ch1_Pro5_ArrayListBasics" />
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch1_Pro4_IfElseCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.Ch1_Pro4_IfElseCondition" />
+    <configuration name="Ch1_Pro6_StringInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics.Ch1_Pro6_StringInJava" />
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.PrimeNumber" />
+    <configuration name="Ch1_Pro7_MethodsBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics.Ch1_Pro7_MethodsBasics" />
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
@@ -132,17 +128,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ch1_Pro4_IfElseCondition" />
-      <item itemvalue="Application.PrimeNumber" />
-      <item itemvalue="Application.Ch1_Pro3_ForLoop" />
+      <item itemvalue="Application.Ch1_Pro6_StringInJava" />
+      <item itemvalue="Application.Ch1_Pro7_MethodsBasics" />
+      <item itemvalue="Application.Ch1_Pro5_ArrayListBasics" />
       <item itemvalue="Application.Selenium_Intro" />
       <item itemvalue="TestNG.Run TestNG" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.Ch1_Pro4_IfElseCondition" />
-        <item itemvalue="Application.Ch1_Pro3_ForLoop" />
+        <item itemvalue="Application.Ch1_Pro7_MethodsBasics" />
+        <item itemvalue="Application.Ch1_Pro6_StringInJava" />
+        <item itemvalue="Application.Ch1_Pro5_ArrayListBasics" />
         <item itemvalue="Application.Selenium_Intro" />
         <item itemvalue="TestNG.Run TestNG" />
       </list>

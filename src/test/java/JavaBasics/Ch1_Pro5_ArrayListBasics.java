@@ -20,7 +20,8 @@ public class Ch1_Pro5_ArrayListBasics {
         a.add("Dharm");
         a.add("Pratham");
         a.add("Bhavya");
-        System.out.println(a.get(4));
+        System.out.println(a.get(2));
+
         System.out.println("----------------- Traditional For Loop ----------------------------");
         for(int i = 0; i<a.size(); i++)
         {

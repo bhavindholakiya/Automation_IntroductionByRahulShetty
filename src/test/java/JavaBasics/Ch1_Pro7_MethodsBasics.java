@@ -1,9 +1,9 @@
 package JavaBasics;
 
-public class MethodsBasics {
+public class Ch1_Pro7_MethodsBasics {
     public static void main(String[] args) {
 
-        MethodsBasics obj1 = new MethodsBasics();
+        Ch1_Pro7_MethodsBasics obj1 = new Ch1_Pro7_MethodsBasics();
         String s1 = obj1.getData();
         System.out.println(s1);
         System.out.println("--------------------------");
