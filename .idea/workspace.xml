@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Introducing Class name and Css Selector locators to identify elements">
+    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Renamed following class name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro5_ArrayListBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro5_ArrayListBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/MethodsBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro7_MethodsBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/StringInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro6_StringInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practical/CustomizeXpathAndCssSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practical/CustomizeXpathAndCssSelectors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +39,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Automation/Automation_IntroductionByRahulShetty/src/main/resources",
+    "last_opened_file_path": "E:/Automation/Automation_IntroductionByRahulShetty",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,48 +54,9 @@
       <recent name="practical" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ch1_Pro7_MethodsBasics">
-    <configuration name="Ch1_Pro5_ArrayListBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.Ch1_Pro5_ArrayListBasics" />
-      <module name="Automation_IntroductionByRahulShetty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaBasics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch1_Pro6_StringInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.Ch1_Pro6_StringInJava" />
-      <module name="Automation_IntroductionByRahulShetty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaBasics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch1_Pro7_MethodsBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.Ch1_Pro7_MethodsBasics" />
-      <module name="Automation_IntroductionByRahulShetty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaBasics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_Intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practical.Selenium_Intro" />
+  <component name="RunManager" selected="Application.AutomationExercise">
+    <configuration name="AutomationExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practical.AutomationExercise" />
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
@@ -127,19 +86,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Ch1_Pro6_StringInJava" />
-      <item itemvalue="Application.Ch1_Pro7_MethodsBasics" />
-      <item itemvalue="Application.Ch1_Pro5_ArrayListBasics" />
-      <item itemvalue="Application.Selenium_Intro" />
-      <item itemvalue="TestNG.Run TestNG" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ch1_Pro7_MethodsBasics" />
-        <item itemvalue="Application.Ch1_Pro6_StringInJava" />
-        <item itemvalue="Application.Ch1_Pro5_ArrayListBasics" />
-        <item itemvalue="Application.Selenium_Intro" />
+        <item itemvalue="Application.AutomationExercise" />
         <item itemvalue="TestNG.Run TestNG" />
       </list>
     </recent_temporary>
@@ -223,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671884228799</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Renamed following class name">
+      <created>1681133368893</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681133368893</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +204,8 @@
     <MESSAGE value="String in Java and it's method." />
     <MESSAGE value="Important note for Basic Selenium and Java" />
     <MESSAGE value="Introducing Class name and Css Selector locators to identify elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introducing Class name and Css Selector locators to identify elements" />
+    <MESSAGE value="Renamed following class name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed following class name" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
