@@ -2,7 +2,8 @@
 <suite name="TestAutomation" verbose="1" >
     <test name="LearningAutomation">
        <classes>
-           <class name="practical.TestNGExample"></class>
+<!--           <class name="practical.TestNGExample" />-->
+
        </classes>
     </test>
 </suite>

@@ -16,3 +16,58 @@
 
     WebDriver driver = new ChromeDriver();
     driver object here has access to the methods of ChromeDriver which are defined in WebDriver interface.
+
+Q. What is String in Java?
+=> In JAVA Terminology, String is an Object in Java that represents sequence of characters.
+
+Q. How many ways you can define String?
+=> There two ways to define a String by Literal and New Keyword to allocate memory in Java Memory.
+
+    // Using String literal - If the variables value same then it wont use Java memory for those variable.
+
+    String s = "Bhavin Dholakiya";
+    String S1 = "Bhavin Dholakiya";
+
+    //Using New Keyword - It will allocate memory for each String variable or Object even the variables value is same.
+
+    String s2 = new String("Prayag Dholakiya");
+    String s3 = new String("Prayag Dholakiya");
+
+Q. How do you handle an element which id is dynamically change every time when load?
+=> You can handle dynamic element using regular expression in your locator (cssSelector OR xpath)  e.g. input[type*='pass']
+
+Q. How do you reverse a String
+=>
+    public static void main(String[] args)
+    {
+        String s = "My Name is Bhavin Dholakiya";
+        String reversedString = "";
+        int len = s.length();
+        for (int i=len-1; i>=0; i--)
+        {
+            reversedString = reversedString+s.charAt(i);
+        }
+        System.out.print("Reversed String is "+reversedString);
+    }
+
+Q. What is the use of Static Keyword in Java?
+=> static will move your methods to class level. Now class level access is provided to your methods by giving static keyword and you directly call that static method without creating an object of the class.
+
+Q. What is locator in Selenium?
+=> The Locators are the way to identify an HTML element on a web page.
+
+Q. What are the locators strategy to find an element in Selenium?
+=> There are several type of strateries to locate an element in selenium.
+    ID
+    xpath
+    CSS Selector
+    name
+    ClassName
+    TagName
+    LinkText
+    PartialLinkText
+
+Q. When to use close() and quit()?
+=> driver.close() : If you are sure that your script have works on only one window tab every time then you can use close() because there is not point with associated windows.
+=> driver.quit() : If your script have something which opens multiple windows that time we need to choose quite() because we need to close all the associated windows.
+
