@@ -8,13 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Automated SkillDB site.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGTutorial/Day1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGTutorial/Day2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGTutorial/VerifyLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGTutorial/VerifySignup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro2_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro2_Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro3_ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro3_ForLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro4_IfElseCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro4_IfElseCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro6_StringInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro6_StringInJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practical/AutomationExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practical/AutomationExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practical/TestNGExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practical/TestNGExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,10 +67,11 @@
       <recent name="E:\Automation\Automation_IntroductionByRahulShetty\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TestNGTutorial" />
       <recent name="practical" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AutomationExercise">
+  <component name="RunManager" selected="TestNG.Run TestNG">
     <configuration name="AutomationExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practical.AutomationExercise" />
       <module name="Automation_IntroductionByRahulShetty" />
@@ -103,10 +103,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AutomationExercise" />
+      <item itemvalue="TestNG.Run TestNG" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AutomationExercise" />
         <item itemvalue="TestNG.Run TestNG" />
+        <item itemvalue="Application.AutomationExercise" />
       </list>
     </recent_temporary>
   </component>

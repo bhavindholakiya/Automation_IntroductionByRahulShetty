@@ -44,7 +44,7 @@ public class TestNGExample {
     }
 
     @Test
-    public static void lanuchBrowser(){
+    public static void launchBrowser(){
         System.out.println("Page title: "+driver.getTitle());
         System.out.println("Current page url: "+driver.getCurrentUrl());
         //wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='preloader']")));
@@ -64,7 +64,7 @@ public class TestNGExample {
         // below element is located by Name attribute
         driver.findElement(By.name("inputPassword")).sendKeys("hello123");
 
-        // below element is locatee by CssSelector
+        // below element is located by CssSelector
         // Syntax of CssSelectors are
         // Class Name -> tagname.classname -> button.signInBtn
         // Id -> tagname#id -> input#inputUsername
