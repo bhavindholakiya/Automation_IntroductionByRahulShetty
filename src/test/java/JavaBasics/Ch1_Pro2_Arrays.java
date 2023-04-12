@@ -3,9 +3,9 @@ package JavaBasics;
 public class Ch1_Pro2_Arrays {
     public static void main(String[] args) {
 
-        int num[] = new int[5];
-        int myNum[] = {1,2,3,4,5,8,6,9,8,15};
-        String names[] = {"Bhavin","Jayesh","Mamta","Prayag"};
+        int[] num = new int[5];
+        int[] myNum = {1,2,3,4,5,8,6,9,8,15};
+        String[] names = {"Bhavin","Jayesh","Mamta","Prayag"};
 
         num[0] = 1;
         num[1] = 3;

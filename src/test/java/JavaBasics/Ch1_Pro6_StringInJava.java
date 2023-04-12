@@ -13,7 +13,7 @@ public class Ch1_Pro6_StringInJava {
         String S1 = "My Name is Bhavin Dholakiya";
 
         //Using New Keyword - It will allocate memory for each String variable or Object even the variables value is same.
-        String S2 = new String("Bhavin");
+        String S2 = "Bhavin";
 
         // Split method to break a String by regex
         String[] splittedString = s.split(" ");
