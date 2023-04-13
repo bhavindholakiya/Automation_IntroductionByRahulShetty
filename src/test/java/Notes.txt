@@ -72,17 +72,16 @@ Q. When to use close() and quit()?
 => driver.quit() : If your script have something which opens multiple windows that time we need to choose quite() because we need to close all the associated windows.
 
 Q. What are the different TestNG annotations?
-
   Suite which have whole TestNG xml file. So, all tests are comes under suite.
-	@BeforeSuite: It will execute before run any testcase from the xml file.       		
-    @AfterSuite: It will execute oncec all the testcase completed from the xml file.
+  @BeforeSuite: It will execute before run any testcase from the xml file.       		
+  @AfterSuite: It will execute oncec all the testcase completed from the xml file.
     
-    You can set your test enviroments details in this methods like variables, url, browser etc. so that you can make sure that all the variables and url set before start execution of your test script.
+  You can set your test enviroments details in this methods like variables, url, browser etc. so that you can make sure that all the variables and url set before start execution of your test script.
     
     @BeforeTest: This will execute first before executing test annoted method in TestNG Tests.    
     @AfterTest: his will execute at last after execute all test annoted methods from your TestNG Tests folder.
     	
-    	The scope of the BeforeTest and AfterTest is only for your Test Folder in TestNG file.
+  The scope of the BeforeTest and AfterTest is only for your Test Folder in TestNG file.
     	
     @BeforeMethod: The annotated method will be run before each test method.    
     @AfterMethod: The annotated method will be run after each test method.
