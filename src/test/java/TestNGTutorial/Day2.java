@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class Day2 {
 
-    @Test
+    @Test (groups={"smoke"})
     public void pLoan(){
         System.out.println("This is personal loan");
     }

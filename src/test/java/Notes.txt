@@ -72,11 +72,11 @@ Q. When to use close() and quit()?
 => driver.quit() : If your script have something which opens multiple windows that time we need to choose quite() because we need to close all the associated windows.
 
 Q. What are the different TestNG annotations?
-  Suite which have whole TestNG xml file. So, all tests are comes under suite.
-  @BeforeSuite: It will execute before run any testcase from the xml file.       		
-  @AfterSuite: It will execute oncec all the testcase completed from the xml file.
+	Suite which have whole TestNG xml file. So, all tests are comes under suite.
+	@BeforeSuite: It will execute before run any testcase from the xml file.       		
+	@AfterSuite: It will execute oncec all the testcase completed from the xml file.
     
-  You can set your test enviroments details in this methods like variables, url, browser etc. so that you can make sure that all the variables and url set before start execution of your test script.
+	You can set your test enviroments details in this methods like variables, url, browser etc. so that you can make sure that all the variables and url set before start execution of your test script.
     
     @BeforeTest: This will execute first before executing test annoted method in TestNG Tests.    
     @AfterTest: his will execute at last after execute all test annoted methods from your TestNG Tests folder.
@@ -90,4 +90,21 @@ Q. What are the different TestNG annotations?
    	@AfterClass: The annotated method will be run after all the test methods in the current class have been run.
 
 Q. What is the difference between BeforeMethod and BeforeTest?
--> BeforeTest it's depend upon TestNG file execution of Test Scope and BeforeMethod is nothing but specific to class file and it execute before each and every testcase. 
+-> BeforeTest it's depend upon TestNG file execution of Test Scope and BeforeMethod is nothing but specific to class file and it execute before each and every testcase.
+
+Q. There is client requirement, we have 100 testcases and client asked us to run only 30 testcases as part of Smoke Testing. How would do that?
+=> Using TestNG Group mechanism we can do this. we will have to define group name to those testcases and specify that group name in TestNG xml file and it will run only those testcases which comes under that group. 
+
+	@Test(groups = { "Smoke" })
+	public void testWindowsOnly() {
+	}
+	<test name="Test1">
+	    <groups>
+	        <run>
+	            <include name="Smoke"/>
+	        </run>
+	    </groups>
+	    <classes>
+	        <class name="example1.Test1"/>
+	    </classes>
+	</test>

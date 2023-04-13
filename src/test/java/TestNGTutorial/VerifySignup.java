@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class VerifySignup {
 
-    @Test
+    @Test (groups={"smoke"})
     public void SignupViaWeb(){
         System.out.println("Web SignUp");
     }
@@ -19,13 +19,13 @@ public class VerifySignup {
         System.out.println("SignUp via API");
     }
     
-    @Test
+    @Test (groups={"smoke"})
     public void GoogleAuthentication() {
     	System.out.println("Sigup via Google");
     }
     
     @Test
     public void GoogleDriveSigup() {
-    	System.out.println("Google Drive");
+    	System.out.println("Google Drive Login");
     }
 }

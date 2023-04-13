@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class Day1 {
 
-    @Test (priority = 1)
+    @Test (priority = 1, groups={"smoke"})
     public void demo(){
         System.out.println("Demo method called.");
     }

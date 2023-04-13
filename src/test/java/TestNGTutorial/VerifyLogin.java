@@ -3,8 +3,8 @@ package TestNGTutorial;
 import org.testng.annotations.Test;
 
 public class VerifyLogin {
-
-    @Test
+ 
+    @Test (groups={"smoke"})
     public void LoginViaWeb(){
         System.out.println("Web Login");
     }
@@ -19,13 +19,13 @@ public class VerifyLogin {
         System.out.println("Login via API");
     }
     
-    @Test
+    @Test (groups={"smoke"})
     public void GoogleAuthentication() {
     	System.out.println("Login via Google");
     }
     
     @Test
     public void GoogleDrive() {
-    	System.out.println("Google Drive");
+    	System.out.println("Google Drive Login");
     }
 }
