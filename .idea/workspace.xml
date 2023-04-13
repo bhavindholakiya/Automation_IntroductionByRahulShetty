@@ -7,14 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Automated SkillDB site.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGTutorial/Day1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGTutorial/Day2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGTutorial/VerifyLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGTutorial/VerifySignup.java" afterDir="false" />
+    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Renamed following class name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practical/TestNGExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practical/TestNGExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
