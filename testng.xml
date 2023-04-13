@@ -1,6 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Test Automation" verbose="1" >
     <test name="Functional Testing">
+    <parameter name="baseURL" value="www.skilldb.com/signup" />
        <classes>
 <!--           <class name="practical.TestNGExample" />-->
            <class name="TestNGTutorial.Day1" />
@@ -15,6 +16,7 @@
     </test>
 
     <test name="Regression Testing">
+    <parameter name="baseURL" value="www.skilldb.com/login" />
         <classes>
             <class name="TestNGTutorial.VerifyLogin">
                 <methods>

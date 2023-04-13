@@ -1,12 +1,14 @@
 package TestNGTutorial;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class VerifySignup {
-
+	
+	@Parameters({"baseURL"})
     @Test (groups={"smoke"})
-    public void SignupViaWeb(){
-        System.out.println("Web SignUp");
+    public void SignupViaWeb(String baseURL){
+        System.out.println("Web SignUp "+baseURL);
     }
 
     @Test

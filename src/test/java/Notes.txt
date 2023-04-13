@@ -108,3 +108,9 @@ Q. There is client requirement, we have 100 testcases and client asked us to run
 	        <class name="example1.Test1"/>
 	    </classes>
 	</test>
+
+Q. I know that there few errors in my test script and I don't want my framework to trigger this. What will you do?
+-> I will enabled=false those testcases with the help of TestNG attributes.
+
+Q. How do you set timeout for particular method?
+-> I will set timeout for those testcases with the help of TestNG attribute.
