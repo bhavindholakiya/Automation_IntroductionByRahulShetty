@@ -1,12 +1,13 @@
 package inheritanceConcept;
 
-public class PS2 {
+public class PS2 extends PS3 {
 	
 	int a;
 	
 	public PS2(int a) {
 		// this.a is belongs to class variable and it a will be assigned to this.a
-		// By using constructor and assigning value, we don't need to set variable value every time when call method from it's class. 
+		// By using constructor and assigning value, we don't need to set variable value every time when call method from  
+		super(a); // parent class constructor is invoked
 		this.a = a; 
 	}
 
