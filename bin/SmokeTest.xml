@@ -4,10 +4,6 @@
 	<parameter name="isHeadless" value="false" />
 	<parameter name="defaultCaptcha" value="1111" />
 	
-	<listeners>
-		<listener class-name="TestNGTutorial.Listeners" />
-	</listeners>
-	
     <test name="Smoke Testing">
         <groups>
         	<run>
