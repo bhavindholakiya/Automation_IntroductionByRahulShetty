@@ -1,0 +1,116 @@
+1. What is Interface in Java?
+    An interface is a group of related methods with empty bodies.
+    Its class responsibility to implement the methods declared in the Interface
+    When class agreed to implement the interface, they must need to provide implementation/bodies to all the defined methods in Interface
+    In simple terms, Interface enforces the Contract to class to follow.
+
+2. WebDriver is an Interface which provides set of Browser Automation methods with empty bodies(Abstract Methods)
+    Classes like ChromeDriver, FireFoxDriver, EdgeDriver, SafariDriver and Provide their own implementation to the WebDriver methods.
+
+3. We need to create the object of the class to access the methods
+- ChromeDriver is a class and which allows you to access all the methods that implemented to automate Chrome browser
+    getTitle(), getUrl(), getText(), close(), quite() all these different methods are available ChromeDriver class to automate.
+- We need to create the object of the clas to access the mthords present in the class.
+    ChromeDriver driver = new ChromeDriver();
+    driver object here has access to all the methods of ChromeDriver
+
+    WebDriver driver = new ChromeDriver();
+    driver object here has access to the methods of ChromeDriver which are defined in WebDriver interface.
+
+Q. What is String in Java?
+=> In JAVA Terminology, String is an Object in Java that represents sequence of characters.
+
+Q. How many ways you can define String?
+=> There two ways to define a String by Literal and New Keyword to allocate memory in Java Memory.
+
+    // Using String literal - If the variables value same then it wont use Java memory for those variable.
+
+    String s = "Bhavin Dholakiya";
+    String S1 = "Bhavin Dholakiya";
+
+    //Using New Keyword - It will allocate memory for each String variable or Object even the variables value is same.
+
+    String s2 = new String("Prayag Dholakiya");
+    String s3 = new String("Prayag Dholakiya");
+
+Q. How do you handle an element which id is dynamically change every time when load?
+=> You can handle dynamic element using regular expression in your locator (cssSelector OR xpath)  e.g. input[type*='pass']
+
+Q. How do you reverse a String
+=>
+    public static void main(String[] args)
+    {
+        String s = "My Name is Bhavin Dholakiya";
+        String reversedString = "";
+        int len = s.length();
+        for (int i=len-1; i>=0; i--)
+        {
+            reversedString = reversedString+s.charAt(i);
+        }
+        System.out.print("Reversed String is "+reversedString);
+    }
+
+Q. What is the use of Static Keyword in Java?
+=> static will move your methods to class level. Now class level access is provided to your methods by giving static keyword and you directly call that static method without creating an object of the class.
+
+Q. What is locator in Selenium?
+=> The Locators are the way to identify an HTML element on a web page.
+
+Q. What are the locators strategy to find an element in Selenium?
+=> There are several type of strateries to locate an element in selenium.
+    ID
+    xpath
+    CSS Selector
+    name
+    ClassName
+    TagName
+    LinkText
+    PartialLinkText
+
+Q. When to use close() and quit()?
+=> driver.close() : If you are sure that your script have works on only one window tab every time then you can use close() because there is not point with associated windows.
+=> driver.quit() : If your script have something which opens multiple windows that time we need to choose quite() because we need to close all the associated windows.
+
+Q. What are the different TestNG annotations?
+	Suite which have whole TestNG xml file. So, all tests are comes under suite.
+	@BeforeSuite: It will execute before run any testcase from the xml file.       		
+	@AfterSuite: It will execute oncec all the testcase completed from the xml file.
+    
+	You can set your test enviroments details in this methods like variables, url, browser etc. so that you can make sure that all the variables and url set before start execution of your test script.
+    
+    @BeforeTest: This will execute first before executing test annoted method in TestNG Tests.    
+    @AfterTest: his will execute at last after execute all test annoted methods from your TestNG Tests folder.
+    	
+  The scope of the BeforeTest and AfterTest is only for your Test Folder in TestNG file.
+    	
+    @BeforeMethod: The annotated method will be run before each test method.    
+    @AfterMethod: The annotated method will be run after each test method.
+    
+  	@BeforeClass: The annotated method will be run before the first test method in the current class is invoked.
+   	@AfterClass: The annotated method will be run after all the test methods in the current class have been run.
+
+Q. What is the difference between BeforeMethod and BeforeTest?
+-> BeforeTest it's depend upon TestNG file execution of Test Scope and BeforeMethod is nothing but specific to class file and it execute before each and every testcase.
+
+Q. There is client requirement, we have 100 testcases and client asked us to run only 30 testcases as part of Smoke Testing. How would do that?
+=> Using TestNG Group mechanism we can do this. we will have to define group name to those testcases and specify that group name in TestNG xml file and it will run only those testcases which comes under that group. 
+
+	@Test(groups = { "Smoke" })
+	public void testWindowsOnly() {
+	}
+	<test name="Test1">
+	    <groups>
+	        <run>
+	            <include name="Smoke"/>
+	        </run>
+	    </groups>
+	    <classes>
+	        <class name="example1.Test1"/>
+	    </classes>
+	</test>
+
+Q. I know that there few errors in my test script and I don't want my framework to trigger this. What will you do?
+-> I will enabled=false those testcases with the help of TestNG attributes.
+
+Q. How do you set timeout for particular method?
+-> I will set timeout for those testcases with the help of TestNG attribute.
