@@ -1,5 +1,7 @@
 package TestNGTutorial;
 
+
+import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -26,6 +28,7 @@ public class VerifyLogin {
     @Test (groups={"smoke"}) 
     public void GoogleAuthentication() {
     	System.out.println("Login via Google");
+    	Assert.assertTrue(false);
     }
     
     @Test

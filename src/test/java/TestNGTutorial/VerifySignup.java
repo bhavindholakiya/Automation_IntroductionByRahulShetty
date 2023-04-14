@@ -1,5 +1,7 @@
 package TestNGTutorial;
 
+import org.testng.Assert;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -7,8 +9,9 @@ public class VerifySignup {
 	
 	@Parameters({"baseURL"})
     @Test (groups={"smoke"})
-    public void SignupViaWeb(String baseURL){
+    public void SignupViaWeb(@Optional("baseURL") String baseURL){
         System.out.println("Web SignUp "+baseURL);
+        Assert.assertTrue(false, "Wrong URL, Please mentioned correct url");
     }
 
     @Test
