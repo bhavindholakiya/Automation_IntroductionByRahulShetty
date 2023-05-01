@@ -121,3 +121,17 @@ Q. When you Catch Listener result, how do you know the testcase name which get f
 Q. If I put @BeforeClass method in class A and put @Test method in class B. what will happen when I run class B?
 -> Before executing @Test method in class B, it will check if there is any inheritance in-place. If it is there then it will gets knowledge and loads all the methods present in Class A to Child Class B memory. So now Child class having all the memory access of parent class so, it will go and run @BeforeClass method first from parent class and then execute TestMethod of child class.
 
+Q. How that @FindBy annotation knows about driver in PageFactory design pattern?
+-> There a method called a initElements which you have to write first and which will take care of constructing that using driver argument what we send in method.
+
+Q. Do you know what DataProvider does in TestNG?
+-> Basically, It help to drive data and pass multiple dataset.
+
+Q. When you use DataProvider and there are let's 15 parameters, How would you handle it?
+-> We can handle this kind of situation using HashMap and DataProvider also allows to send HashMap.
+
+Q. Can you apply PageFactory within WebElement WebElement.findElement?
+-> No, it's not possible.
+
+Q. How you are driving data from external files?
+-> We get data from JSON file and utilizing TestNG DataProvider as an integration to implement parameterization into Test Data Driven Framework
