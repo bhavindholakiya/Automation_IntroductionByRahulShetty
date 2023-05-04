@@ -89,6 +89,17 @@ Q. What are the different TestNG annotations?
   	@BeforeClass: The annotated method will be run before the first test method in the current class is invoked.
    	@AfterClass: The annotated method will be run after all the test methods in the current class have been run.
 
+Q. What is TestNG Annotation Order or Sequence?
+    <beforeSuite>
+    <beforeTest>
+    <beforeClass>
+    <beforeMethod>
+    <test1>
+    <afterMethod>
+    <afterClass>
+    <afterTest>
+    <afterSuite>
+
 Q. What is the difference between BeforeMethod and BeforeTest?
 -> BeforeTest it's depend upon TestNG file execution of Test Scope and BeforeMethod is nothing but specific to class file and it execute before each and every testcase.
 
@@ -134,4 +145,36 @@ Q. Can you apply PageFactory within WebElement WebElement.findElement?
 -> No, it's not possible.
 
 Q. How you are driving data from external files?
--> We get data from JSON file and utilizing TestNG DataProvider as an integration to implement parameterization into Test Data Driven Framework
+-> We get data from JSON file and utilizing TestNG DataProvider as an integration to implement parameterization into Test Data Driven Framework.
+
+Q. What is Listeners in TestNG?
+-> Listener is defined as interface that modifies the default TestNG’s behavior. As the name suggests Listeners “listen” to the event defined in the selenium script and behave accordingly. It is used in selenium by implementing Listeners Interface. It allows customizing TestNG reports or logs.
+
+Q. Types of Listeners in TestNG
+-> There are many types of listeners which allows you to change the TestNG’s behavior.
+
+    Below are the few TestNG listeners:
+
+    IAnnotationTransformer ,
+    IAnnotationTransformer2 ,
+    IConfigurable ,
+    IConfigurationListener ,
+    IExecutionListener,
+    IHookable ,
+    IInvokedMethodListener ,
+    IInvokedMethodListener2 ,
+    IMethodInterceptor ,
+    IReporter,
+    ISuiteListener,
+    ITestListener .
+
+Q. What aret he methods available in ITestListener?
+    OnStart- OnStart method is called when any Test starts.
+    onTestSuccess- onTestSuccess method is called on the success of any Test.
+    onTestFailure- onTestFailure method is called on the failure of any Test.
+    onTestSkipped- onTestSkipped method is called on skipped of any Test.
+    onTestFailedButWithinSuccessPercentage- method is called each time Test fails but is within success percentage.
+    onFinish- onFinish method is called after all Tests are executed.
+
+Q. Can we get field from method level?
+-> I cannot use test method to get the driver instance because fields are associated with Class Level but not method level.
