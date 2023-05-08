@@ -168,7 +168,7 @@ Q. Types of Listeners in TestNG
     ISuiteListener,
     ITestListener .
 
-Q. What aret he methods available in ITestListener?
+Q. What are the methods available in ITestListener?
     OnStart- OnStart method is called when any Test starts.
     onTestSuccess- onTestSuccess method is called on the success of any Test.
     onTestFailure- onTestFailure method is called on the failure of any Test.
@@ -178,3 +178,9 @@ Q. What aret he methods available in ITestListener?
 
 Q. Can we get field from method level?
 -> I cannot use test method to get the driver instance because fields are associated with Class Level but not method level.
+
+Q. What is an Exception in Java?
+-> An exception is an abnormal event that disrupts the flow of normal program execution that unless handled could lead to the termination of that program
+
+Q. Introduce yourselft?
+Hi, My Name is Bhavin and currently working with Openxcell Technolabs. So when talk about my roles & responsibilty, I'm majorly involved in all the test activities that doing. Generally I'm also participating in Scrum ceremony where we have daily stand-up meeting, we have spring review, spring planning, spring resprective, I’m also majorly involved in Automation activities like development, execution and maintenance of automation script. So, whenever we have new cycle or build, we run our automation scripts, regression test scripts, whenever get failure we analyse result and see if any failure from our side, then we fix it and re-run the scripts. Whenever find any bug, we simply report bug in JIRA software.
