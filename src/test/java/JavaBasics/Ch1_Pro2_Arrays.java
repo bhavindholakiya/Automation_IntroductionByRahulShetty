@@ -13,6 +13,7 @@ public class Ch1_Pro2_Arrays {
         num[3] = 7;
         num[4] = 9;
 
-        System.out.println("Num array index " +num[4]);
+        System.out.println("Num array index " +num[2]);
+        System.out.println("Name is "+names[0]);
     }
 }
