@@ -33,6 +33,9 @@ Q. How many ways you can define String?
     String s2 = new String("Prayag Dholakiya");
     String s3 = new String("Prayag Dholakiya");
 
+Q. What is Data Encapsulation?
+=> Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit.
+
 Q. How do you handle an element which id is dynamically change every time when load?
 => You can handle dynamic element using regular expression in your locator (cssSelector OR xpath)  e.g. input[type*='pass']
 
@@ -52,6 +55,15 @@ Q. How do you reverse a String
 
 Q. What is the use of Static Keyword in Java?
 => static will move your methods to class level. Now class level access is provided to your methods by giving static keyword and you directly call that static method without creating an object of the class.
+
+Q. What is an implicit wait?
+-> An implicit wait specifies the time the driver should wait when searching for any element if it is not immediately present. Note that if we find no element, it throws NoSuchElementException.
+
+Q. What is an explicit wait?
+-> It is an explicit wait used to halt program execution until meeting a given condition (e.g., an alert to be present, an element or text to be visible, etc.).
+
+Q. What is a FluentWait?
+-> A FluentWait allows us to define the maximum time to wait for a given state, but we can also specify the frequency with which to check for the condition. We may also ignore certain exceptions, such as NoSuchElementException, when searching for an element on the page.
 
 Q. What is locator in Selenium?
 => The Locators are the way to identify an HTML element on a web page.
@@ -101,7 +113,7 @@ Q. What is TestNG Annotation Order or Sequence?
     <afterSuite>
 
 Q. What is the difference between BeforeMethod and BeforeTest?
--> BeforeTest it's depend upon TestNG file execution of Test Scope and BeforeMethod is nothing but specific to class file and it execute before each and every testcase.
+=> BeforeTest it's depend upon TestNG file execution of Test Scope and BeforeMethod is nothing but specific to class file and it execute before each and every testcase.
 
 Q. There is client requirement, we have 100 testcases and client asked us to run only 30 testcases as part of Smoke Testing. How would do that?
 => Using TestNG Group mechanism we can do this. we will have to define group name to those testcases and specify that group name in TestNG xml file and it will run only those testcases which comes under that group. 
@@ -121,19 +133,19 @@ Q. There is client requirement, we have 100 testcases and client asked us to run
 	</test>
 
 Q. I know that there few errors in my test script and I don't want my framework to trigger this. What will you do?
--> I will enabled=false those testcases with the help of TestNG attributes.
+=> I will enabled=false those testcases with the help of TestNG attributes.
 
 Q. How do you set timeout for particular method?
--> I will set timeout for those testcases with the help of TestNG attribute.
+=> I will set timeout for those testcases with the help of TestNG attribute.
 
 Q. When you Catch Listener result, how do you know the testcase name which get failed?
--> We can have class name called ITestResult and actually this class describe the result of a test. And the listener we are using Listener implementing from ITestListener and with that we have lots of methods from there we can use getName() to get name of the method.
+=> We can have class name called ITestResult and actually this class describe the result of a test. And the listener we are using Listener implementing from ITestListener and with that we have lots of methods from there we can use getName() to get name of the method.
 
 Q. If I put @BeforeClass method in class A and put @Test method in class B. what will happen when I run class B?
--> Before executing @Test method in class B, it will check if there is any inheritance in-place. If it is there then it will gets knowledge and loads all the methods present in Class A to Child Class B memory. So now Child class having all the memory access of parent class so, it will go and run @BeforeClass method first from parent class and then execute TestMethod of child class.
+=> Before executing @Test method in class B, it will check if there is any inheritance in-place. If it is there then it will gets knowledge and loads all the methods present in Class A to Child Class B memory. So now Child class having all the memory access of parent class so, it will go and run @BeforeClass method first from parent class and then execute TestMethod of child class.
 
 Q. How that @FindBy annotation knows about driver in PageFactory design pattern?
--> There a method called a initElements which you have to write first and which will take care of constructing that using driver argument what we send in method.
+=> There a method called a initElements which you have to write first and which will take care of constructing that using driver argument what we send in method.
 
 Q. Do you know what DataProvider does in TestNG?
 -> Basically, It help to drive data and pass multiple dataset.
@@ -184,3 +196,95 @@ Q. What is an Exception in Java?
 
 Q. Introduce yourselft?
 Hi, My Name is Bhavin and currently working with Openxcell Technolabs. So when talk about my roles & responsibilty, I'm majorly involved in all the test activities that doing. Generally I'm also participating in Scrum ceremony where we have daily stand-up meeting, we have spring review, spring planning, spring resprective, I’m also majorly involved in Automation activities like development, execution and maintenance of automation script. So, whenever we have new cycle or build, we run our automation scripts, regression test scripts, whenever get failure we analyse result and see if any failure from our side, then we fix it and re-run the scripts. Whenever find any bug, we simply report bug in JIRA software.
+
+Q. How do I ensure that entire page is loaded completely in selenium
+Ans. We can wait until the page is completely loaded in Selenium webdriver by using the JavaScript Executor. Selenium can run JavaScript commands with the help of the executeScript method.
+We have to pass return document.readyState as a parameter to the executeScript method and then verify if the value returned by this command is complete.
+JavascriptExecutor j = (JavascriptExecutor)driver;
+if (j.executeScript("return document.readyState").toString().equals("complete")){
+   System.out.println("Page has loaded");
+}
+
+Q. What design pattern method you used in your Automation Framework?
+=> We used Page Object Model design pattern method in out Automation Framework along with PageFactory pattern to create OR derive locators OR Object.
+
+Q. How are reusable utilities handled within the Framework?
+=> We can write all the reusable methods in one Java class and by simply inheriting all the Page Object class from the reusable class so we can access all those reusable methods across all our page object class. So reusability happening and reduce redundant code.
+
+Q. Where did you use Inheritance OOPS Concept in your framework?
+=> We have some reusable classes and we don’t want to create objects for each and every reusable class. So we are simply inheriting them to our child classes and that we can use Inheritance affectively to use reusable methods and classes. 
+    So best example, we have methods called LaunchDriver, TakeScreenshot, DriverClose, PropertyFileReader but I don’t want to repeat these methods for each and every tests. I want to keep my code clean by separating all these methods from the test by prerequisite and post requisite.  
+
+Q. How did you drive the data from external files in the framework?
+=> We use JSON file to parse the data and base upon number of entries you were created in JSON, my test will be run that many times. I have one scenario to add product in cart and then do checkout, so for that I set two sets of data and my test will be run for two times.
+
+Q. How do you get Data from the JSON file?
+=> There is concept called DataProvider in TestNG which will helps you to parameterise your test data. So DataProvider also accept HasMap as an object to send the data. I created multiple HashMap objects and send to DataProvide to iterate to them in multiple time
+    I created one JSON file and created on utility to convert my JSON data to HashMap and Once it converted into HashMap I passing it to my dataprovider.
+
+Q. How did you convert your JSON to HashMap?
+=> There dependency called Jackson Databind which you need to get it externally and put it into your project.  By using Jackson Databind utility there are classes like ObjectMapper which will convert your JSON string content into List of HashMap.  
+
+Q. Did you use Interface in the Framework? If So, what is the scope of it?
+=> Yes, we are using interface in our framework. First on top of we use WebDriver Interface in our framework which implemented all the browser class and then we use TestNG Listene.
+
+For Example, we have class called Listeners and which is implemented from ITestListener Interface in our framework.
+
+Q. Why are you implemented ITestListener Interface?
+=> because it provides methods which are really helpful to write some code where we can that we can avoid in our testcases. For example, for every case we have to create one entry in our report and we know that it has to be done as prerequisite. So, We are using TestNG Listener where in onTestStart methods I’ll write the code. Similarly I have requirement, that I have to take screenshot and attach in Test Report on test failure So, I’ll write code for that in onTestFailure method.
+
+Q. How are you achieving Encapsulation in the framework?
+=> Encapsulation is hiding the implementation details from one class to another class. We can make our fields and variable as private to hiding and exposing only action method publicly. 
+
+For Example, I declare elements in Page Object class as Private and action method also written in same class. As I declare element as private so nobody illegally accesses those elements outside the class and only class level methods can access that element. And other class can access the action method by creating Object of that class.
+
+Like that we are hiding our fields and only exposing action methods to public. So, this is one way to make your code more optimized and stricter in terms of encapsulation. 
+
+Q. Does your Framework Support Parallel Runs? How are you writing Thread safe code?
+=> Yes, for our framework to support ‘Parallel’ run, first thing what we are doing is in our TestNG.xml file we were making sure that attribute ‘parallel’ is set to ‘tests’. So, that mean we are asking to our tests to run parallelly. And each test constitutes to one class name and there are two tests with two different class. So, two class are running parallelly with its own thread 
+
+There is not issue with running all tests parallelly. But when comes to reporting, it will overwrite by last thread result only and we don’t have Thread Safe concept. To overcome this issue, we smartly came up with class called ThreadLocal where it store thread information as Thread ID, so like that we can avoid concurrently issue and implemented thread safe code for our extent report.
+
+Q. Do you have static keywords in the Framework? If so, it’s usage?
+=> If you declare your driver object as Static then you cannot achieve parallel testing in your framework. But the dangerous thing with static is, if you marked them as static then variables will be shared across the Thread so that mean if you run test two times parallelly, same driver variable will be shared for two thread and that’s the problem with static.
+
+The definition of Static in Java is that “Static variables used common space allocation for all the threads”.
+So, wherever parallel testing comes into picture there is not scope of static. 
+ 
+Q. How are you sending Global Properties to your test at run time?
+=>  There two ways of create Properties file. 
+1.  One way is we create Java Properties File and we are reading those properties in out baseTest class with Properties Class. 
+    There is class called ‘Properties’ which have ability to read any file which have .properties extension and we loading that file and reading at runtime using getProperty() method and if the parameter match with the field name we can get the value
+We can declare fields like base url, Environments, browser name, timeout, etc.
+2.  Another way driver data from Maven Terminal. When we give maven command -D value and give the maven parameter where you need to drive in that data.
+
+Q. What is the mechanism you use to run only selected set of tests inside the Framework?
+=> Yes, we can use concept call TestNG Group to run only selected set of tests inside the Framework. Whatever test are identified to run we need to set group name to those tests.
+For that we will create new Test NG xml file and create new profile with ID and when run mvn test -p with ID, we can only that test.
+
+Q. How are you handling Flaky tests in the Framework?
+=> Flaky means test which are inconstant. Some testcases randomly fails OR case which sometimes it fails and sometime same case is pass.
+    In TestNG there is another interface called IRetryAnalyzer which we are implementing and create method to forcing execute. If retry return true, then test will keep retrying it continues until retry return gets false.
+    Just not creating class and implementing whichever test we want to retry that particular test we need to add another TestNG helper attribute called “retryAlalyzer=Retry.class”. 
+ 
+Q. Does your Framework take Screenshot on test failures? How did you implement it?
+=>  Using TestNG Listener we know that whenever test fail, we can catch it and OnTestFailure method will execute where it smartly writes the Take Screenshot code and attach in our ExtentReport.
+
+Q. Explain Framework Architecture. 
+=> 1. Page Object: So the test cases are in middle of testing and automating all the testcases we need locators and for that we create Package called Page Object where I created different classes for different pages. And each page has it own fields and action method which I’m pulling up in my testcase.
+
+2. Common Components: On top of that Page Object we also have another class that take care of all the reusable stuff e.g. waitHelper, GoToPage, Header Section, Footer Section, and anything that child class can reuse the code. Whatever code you thing is reusable that you can write in Parent class and inherit it all the child class so you can access all those reusable methods in PageObject class.
+
+3. Base Test: Now we have number of tests which have some common code to execute like selecting browser, initializing browser, closing browser, read Property file all these are common codes in all these test cases. And to reuse all this code we have another class called BaseTest where we have all these common codes which belong to all these test cases again we were using Inheritance Concept here so all these test case class can reuse all these reusable methods. Here the BaseTest will be parent class and segregate all the common code.
+
+4. Json File Parser and HashMap: So, now I write testcases using Page Objects and My test needs Data from where it is coming. Data is something coming from 3rd party files like Excel or Json. Before it reaches to my test, middle I have a parser. I wrote a utility in BaseTest that reads data from JSON file and convert it into HashMap My testcase use that HashMap and I have something called Data Provider for each and every test. Data Provider sends data to my tests.
+
+5. Listener: Now we have the Listener class which is implemented using ITestListner TestNG Interface where we have some unimplemented methods such as OnTestStart, OnTestSuccess, OnTestFailuer, OnTestEnd. So My test start executing from Listener. On start testing we have one entry that Test is start if any failure then captures screenshot and attach in report. So that Listener is one middleware between my Testcases and report.
+
+6. Reporting: Extent HTML Report is something that generates with the help of TestNg listeners. Every test it created one entry in Extent Report by Listener.
+
+7. Test Runner: Apart from all these I have one another package called ‘Test Runner’ where I have created all the TestNG XML file for different types of runners which will define which test will execute.
+
+8. POM.xml: In the POM xml file we have to add profile ID of test runner file and when we hit mvn run command from terminal, execution will start from the POM.xml file from where it will see which test runner needs to execute. That Test runner testng xml has all the information that test case needs to run on which browser and environment so based on that our execution will start.
+
+While executing testcase it will go to Page Object file when required locators and action method. If required any reusable method will go to CommonComponenet class and feed the PageObject class. And when required data it will go to JSON file parser and return data to HashMap and it will convert pass data to DataProvider. While executing testcase it will send results to TestNG listener and that will generate ExtentReport.

@@ -44,7 +44,7 @@ public class Ch1_Pro5_ArrayListBasics {
         System.out.println("---------------------------------------------");
 
         // This is how you can convert your tradition array to ArrayList
-        String[] name = {"Bhavin", "Jayesh", "Mamta", "Geeta"};
+        String[] name = { "Bhavin", "Jayesh", "Mamta", "Geeta" };
         List<String> nameArrayList = Arrays.asList(name);
         System.out.println(nameArrayList.get(2));
     }
