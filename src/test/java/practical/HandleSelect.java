@@ -13,6 +13,11 @@ public class HandleSelect {
         WebElement drp = driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency"));
         Select select = new Select(drp);
         select.selectByValue("USD");
+        System.out.println(select.getFirstSelectedOption().getText());
+        select.selectByVisibleText("INR");
+        System.out.println(select.getFirstSelectedOption().getText());
+        select.selectByIndex(2); 
+        System.out.println(select.getFirstSelectedOption().getText());
         Thread.sleep(1000);
         driver.quit();
     }
