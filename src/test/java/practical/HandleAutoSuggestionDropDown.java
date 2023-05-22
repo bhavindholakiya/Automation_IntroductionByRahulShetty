@@ -25,9 +25,7 @@ public class HandleAutoSuggestionDropDown {
                 country.click();
                 System.out.println("Country selected!");
                 break;
-            } else {
-                System.out.println("Country not found");
-            }
+            } 
         }
         Thread.sleep(2000);
         driver.quit();
