@@ -222,7 +222,7 @@ Q. How do you get Data from the JSON file?
 => There is concept called DataProvider in TestNG which will helps you to parameterise your test data. So DataProvider also accept HasMap as an object to send the data. I created multiple HashMap objects and send to DataProvide to iterate to them in multiple time
     I created one JSON file and created on utility to convert my JSON data to HashMap and Once it converted into HashMap I passing it to my dataprovider.
 
-Q. How did you convert your JSON to HashMap?
+Q. How did you convert you JSON to HashMap?
 => There dependency called Jackson Databind which you need to get it externally and put it into your project.  By using Jackson Databind utility there are classes like ObjectMapper which will convert your JSON string content into List of HashMap.  
 
 Q. Did you use Interface in the Framework? If So, what is the scope of it?

@@ -18,11 +18,15 @@ public class HandleDynamicDropdown {
 
         Thread.sleep(1000);
         drpDepartureCity.click();
-        driver.findElement(By.xpath("//a[@value='BLR']")).click();
+        // driver.findElement(By.xpath("//a[@value='BLR']")).click();
+        driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_originStation1_CTNR'] //a[@value='BHO']"))
+                .click();
 
         Thread.sleep(1000);
         drpArrivalCity.click();
-        driver.findElement(By.xpath("(//a[@value='STV'])[2]")).click();
+        // driver.findElement(By.xpath("(//a[@value='STV'])[2]")).click();
+        driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='STV']"))
+                .click();
 
         Thread.sleep(1000);
         driver.quit();
