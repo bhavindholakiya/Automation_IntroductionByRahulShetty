@@ -11,8 +11,9 @@ public class HandleDynamicDropdown {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(options);
-
+        
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+        driver.manage().window().maximize();
         WebElement drpDepartureCity = driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT"));
         WebElement drpArrivalCity = driver.findElement(By.id("ctl00_mainContent_ddl_destinationStation1_CTXT"));
 
@@ -28,6 +29,9 @@ public class HandleDynamicDropdown {
         driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='STV']"))
                 .click();
 
+        Thread.sleep(2000);
+
+        driver.findElement(By.cssSelector(".ui-state-default.ui-state-highlight")).click();
         Thread.sleep(1000);
         driver.quit();
     }

@@ -142,7 +142,7 @@ Q. When you Catch Listener result, how do you know the testcase name which get f
 => We can have class name called ITestResult and actually this class describe the result of a test. And the listener we are using Listener implementing from ITestListener and with that we have lots of methods from there we can use getName() to get name of the method.
 
 Q. If I put @BeforeClass method in class A and put @Test method in class B. what will happen when I run class B?
-=> Before executing @Test method in class B, it will check if there is any inheritance in-place. If it is there then it will gets knowledge and loads all the methods present in Class A to Child Class B memory. So now Child class having all the memory access of parent class so, it will go and run @BeforeClass method first from parent class and then execute TestMethod of child class.
+=> Before executing @Test method in class B, it will check if there is any inheritance in-place. If it is there then it will gets Acknowledge and loads all the methods present in Class A to Child Class B memory. So now Child class having all the memory access of parent class so, it will go and run @BeforeClass method first from parent class and then execute TestMethod of child class.
 
 Q. How that @FindBy annotation knows about driver in PageFactory design pattern?
 => There a method called a initElements which you have to write first and which will take care of constructing that using driver argument what we send in method.
