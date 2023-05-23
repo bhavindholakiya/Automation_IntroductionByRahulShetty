@@ -7,12 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Notes updated">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practical/HandleHTMLTable.java" afterDir="false" />
+    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Added Java Programs for Practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro2_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/Ch1_Pro2_Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practical/TestNGExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practical/TestNGExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,24 +39,27 @@
     </option>
   </component>
   <component name="ProjectId" id="2IlLHo4U73MLOyBcPboWbQm9Qp2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "I:/onlineshopping",
+    "last_opened_file_path": "E:/Automation/OnlineShopping",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -69,13 +71,26 @@
       <recent name="practical" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HandleHTMLTable.getCountry">
+  <component name="RunManager" selected="Application.OddEvenNumber">
     <configuration name="AutomationExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practical.AutomationExercise" />
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practical.*" />
+          <option name="PATTERN" value="JavaPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OddEvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPrograms.OddEvenNumber" />
+      <module name="Automation_IntroductionByRahulShetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,7 +102,7 @@
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practical.*" />
+          <option name="PATTERN" value="JavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +135,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.OddEvenNumber" />
       <item itemvalue="Application.AutomationExercise" />
       <item itemvalue="TestNG.HandleHTMLTable.getCountry" />
       <item itemvalue="TestNG.Run TestNG" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OddEvenNumber" />
         <item itemvalue="TestNG.HandleHTMLTable.getCountry" />
         <item itemvalue="TestNG.Run TestNG" />
         <item itemvalue="Application.AutomationExercise" />
@@ -232,7 +249,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681218617102</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Notes updated">
+      <created>1683535482564</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683535482564</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Implemented Handle Pagination and get value from the table">
+      <created>1683535524186</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683535524186</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added Java Programs for Practice">
+      <created>1684240472719</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684240472720</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +285,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Selenium Introduction with all popular browser drivers." />
     <MESSAGE value="Introduce Test case execution with TestNG" />
     <MESSAGE value="Basics of Variables." />
@@ -260,7 +299,10 @@
     <MESSAGE value="Renamed following class name" />
     <MESSAGE value="Logs Added and ChromeOptions." />
     <MESSAGE value="Automated SkillDB site." />
-    <option name="LAST_COMMIT_MESSAGE" value="Automated SkillDB site." />
+    <MESSAGE value="Notes updated" />
+    <MESSAGE value="Implemented Handle Pagination and get value from the table" />
+    <MESSAGE value="Added Java Programs for Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Java Programs for Practice" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
