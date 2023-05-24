@@ -40,7 +40,7 @@ public class AddItemIntoCart {
             	j++;
             	System.out.println(formattedName);
                 driver.findElements(By.xpath("//div[@class='product-action']/button[@type='button']")).get(i).click();
-                if(j==3) {
+                if(j==veggies.length) {
               	   break;
                  }
             }
