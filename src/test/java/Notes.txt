@@ -65,6 +65,10 @@ Q. What is an explicit wait?
 Q. What is a FluentWait?
 -> A FluentWait allows us to define the maximum time to wait for a given state, but we can also specify the frequency with which to check for the condition. We may also ignore certain exceptions, such as NoSuchElementException, when searching for an element on the page.
 
+Fluent wait finds the web element repeatedly at regular intervals of time until the timeout or till the objects gets found.
+
+Unlike WebDriver wait, we need to build Customized wait methods based on condition.
+
 Q. What is locator in Selenium?
 => The Locators are the way to identify an HTML element on a web page.
 
