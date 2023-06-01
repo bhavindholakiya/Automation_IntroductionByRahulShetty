@@ -23,7 +23,9 @@ public class HandleiFrames {
         WebElement targetEle = driver.findElement(By.id("droppable"));
 
         Actions a = new Actions(driver);
-        a.dragAndDrop(sourceEle, targetEle).build().perform();;
+        a.dragAndDrop(sourceEle, targetEle).build().perform();
+
+        driver.switchTo().defaultContent();
 
         Thread.sleep(2000);
         driver.quit();
