@@ -7,7 +7,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 public class WebDriverScope {
     public static void main(String[] args) throws InterruptedException {
@@ -32,11 +34,19 @@ public class WebDriverScope {
         List<WebElement> couponsLink = columnDriver.findElements(By.tagName("a"));
         System.out.println("Links under 1st section in footer: "+couponsLink.size());
 
-        // 4. Click each link in present inside 1st block in Footer section.
+        //4. Click each link in present inside 1st block in Footer section.
         for (int i = 1; i < couponsLink.size(); i++) {
             String clickOnLink = Keys.chord(Keys.CONTROL, Keys.ENTER);
             columnDriver.findElements(By.tagName("a")).get(i).sendKeys(clickOnLink);
             Thread.sleep(2000L);
+        }
+
+        //5. Get each link window title and print 
+        Set<String> window = driver.getWindowHandles();
+        Iterator<String> it = window.iterator();
+        while(it.hasNext()){
+            driver.switchTo().window(it.next());
+            System.out.println(driver.getTitle());
         }
 
         driver.quit();
