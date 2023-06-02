@@ -32,6 +32,13 @@ public class WebDriverScope {
         List<WebElement> couponsLink = columnDriver.findElements(By.tagName("a"));
         System.out.println("Links under 1st section in footer: "+couponsLink.size());
 
+        // 4. Click each link in present inside 1st block in Footer section.
+        for (int i = 1; i < couponsLink.size(); i++) {
+            String clickOnLink = Keys.chord(Keys.CONTROL, Keys.ENTER);
+            columnDriver.findElements(By.tagName("a")).get(i).sendKeys(clickOnLink);
+            Thread.sleep(2000L);
+        }
+
         driver.quit();
     }
 }
