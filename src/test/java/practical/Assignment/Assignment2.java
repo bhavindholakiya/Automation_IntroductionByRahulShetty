@@ -1,4 +1,4 @@
-package practical;
+package practical.Assignment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
