@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import org.testng.annotations.Test;
 
-public class Test1 {
+public class StreamFilter {
   //@Test
   public void regular() {
 	  //Count the number of names starting with "P" in the list.
@@ -29,7 +29,11 @@ public class Test1 {
   
   @Test
   public void streamFilter() {
-	//Count the number of names starting with "P" in the list.
+	  //Count the number of names starting with "P" in the list.
+	  /*
+	   * The ‘filter’ method is used to eliminate elements based on a criteria. 
+	   * The following code segment prints a count of names starting with "P" using filter.
+	   */
 	  ArrayList<String> names = new ArrayList<String>();
 	  names.add("Bhavin");
 	  names.add("Prayag");
