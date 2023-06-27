@@ -9,7 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Get no. of links and get links inside a specific section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practical/WebDriverScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practical/WebDriverScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaBasics/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
