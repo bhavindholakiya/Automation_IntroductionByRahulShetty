@@ -1,6 +1,7 @@
 package JavaStream;
 
 import java.util.ArrayList;
+import java.util.stream.Stream;
 
 import org.testng.annotations.Test;
 
@@ -37,13 +38,35 @@ public class StreamFilter {
 	  ArrayList<String> names = new ArrayList<String>();
 	  names.add("Bhavin");
 	  names.add("Prayag");
-	  names.add("Jayesh");
+	  names.add("Hari");
 	  names.add("Mamta");
 	  names.add("Pratham");
 	  names.add("Prem");
-	  names.add("Dharma");
+	  names.add("Jay");
+	  /*
+	   *There is no life for intermediate operation if there is no terminal operation.
+	   *Terminal operation will execute only if intermediate operation (e.g. filter) returns true.
+	   *We can create Stream using java.util.Stream package
+	   *How to use filter in Stream API 
+	   */
 	  
 	  long count = names.stream().filter(name -> name.startsWith("P")).count();
 	  System.out.println(count);
+	  
+	  long d = Stream.of("Bhavin", "Prayag", "Jayesh", "Mamta", "Pratham", "Prem", "Dharma").filter(s->
+			  {
+				  s.startsWith("B");
+				  return true;
+			  }).count();
+	  System.out.println(d);
+
+	  /*
+	  * Print all the name length greater than 4 from the given ArrayList
+	  * By Using Stream, we can achieve with one line of code and if go with traditional way there we need to write
+	  * number of lines of code
+	  */
+
+	  names.stream().filter(s->s.length()>4).forEach(s->System.out.println(s));
+
   }
 }
