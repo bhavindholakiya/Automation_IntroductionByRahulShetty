@@ -65,8 +65,10 @@ public class StreamFilter {
 	  * By Using Stream, we can achieve with one line of code and if go with traditional way there we need to write
 	  * number of lines of code
 	  */
-
 	  names.stream().filter(s->s.length()>4).forEach(s->System.out.println(s));
+
+	  // To print only 1st record from the ArrayList, use limit method
+	  names.stream().filter(s->s.length()>4).limit(1).forEach(System.out::println);
 
   }
 }
