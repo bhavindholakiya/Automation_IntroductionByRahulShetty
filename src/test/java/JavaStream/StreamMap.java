@@ -2,6 +2,7 @@ package JavaStream;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 import org.testng.annotations.Test;
@@ -11,7 +12,7 @@ public class StreamMap {
     @Test
     public void streamMap(){        
 	    
-	    List<String> names = Arrays.asList("Bhavin", "Prayag", "Hari", "Mamta", "Pratham", "Prem", "Jay", "Pankti");
+	    List<String> names = Arrays.asList("Bhavin", "Prayag", "Hari", "Xamrian", "Mamta", "Zamin", "Pratham", "Prem", "Jay", "Pankti");
 	    
 	    // Print all the name from the Given arrays in UpperCase.
 	    System.out.println("-----------------------------------");
@@ -24,6 +25,9 @@ public class StreamMap {
 	    // Print names which have first letter as "P" with UpperCase and sorted.
 	    System.out.println("-----------------------------------");	    
 	    names.stream().filter(s->s.startsWith("P")).sorted().map(s->s.toUpperCase()).forEach(System.out::println);
+
+		System.out.println("---------Descending Order Sorting using Stream -------------");
+		names.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println);
 	    
     }
 }
