@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Stream;
 
 import org.testng.annotations.Test;
 
@@ -12,7 +13,9 @@ public class StreamMap {
     @Test
     public void streamMap(){        
 	    
-	    List<String> names = Arrays.asList("Bhavin", "Prayag", "Hari", "Xamrian", "Mamta", "Zamin", "Pratham", "Prem", "Jay", "Pankti");
+	    List<String> names = Arrays.asList("Bhavin", "Prayag", "Hari", "Xamrian", "Mamta", "Zamin", "Pratham", "Prem", "Pankti");
+
+		List<String> names1 = Arrays.asList("Jay", "Anuj", "Pooja", "Keval", "Kirtan");
 	    
 	    // Print all the name from the Given arrays in UpperCase.
 	    System.out.println("-----------------------------------");
@@ -29,5 +32,8 @@ public class StreamMap {
 		System.out.println("---------Descending Order Sorting using Stream -------------");
 		names.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println);
 	    
+		System.out.println("--------- Concat two stream -------------");
+		Stream<String> newStream = Stream.concat(names.stream(), names1.stream());
+		newStream.sorted().forEach(s->System.out.println(s));
     }
 }
