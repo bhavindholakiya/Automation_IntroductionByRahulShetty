@@ -4,6 +4,9 @@
     When class agreed to implement the interface, they must need to provide implementation/bodies to all the defined methods in Interface
     In simple terms, Interface enforces the Contract to class to follow.
 
+Q. What is WebDriver driver = ChromeDriver() in Selenium?
+=> Using WebDriver driver = new ChromeDriver(); you are creating an instance of the WebDriver interface and casting it to ChromeDriver Class. All the browser drivers like FirefoxDriver, ChromeDriver, InternetExplorerDriver, PhantomJSDriver, SafariDriver etc implemented the WebDriver interface (actually the RemoteWebDriver class implements WebDriver Interface and the Browser Drivers extends RemoteWebDriver). So if we use WebDriver driver, then we can use the already initialized driver (as common object variable) for all browsers we want to automate e.g. Mozilla, Chrome, InternetExplorer, PhantomJS, Safari.
+
 2. WebDriver is an Interface which provides set of Browser Automation methods with empty bodies(Abstract Methods)
     Classes like ChromeDriver, FireFoxDriver, EdgeDriver, SafariDriver and Provide their own implementation to the WebDriver methods.
 
@@ -292,3 +295,15 @@ Q. Explain Framework Architecture.
 8. POM.xml: In the POM xml file we have to add profile ID of test runner file and when we hit mvn run command from terminal, execution will start from the POM.xml file from where it will see which test runner needs to execute. That Test runner testng xml has all the information that test case needs to run on which browser and environment so based on that our execution will start.
 
 While executing testcase it will go to Page Object file when required locators and action method. If required any reusable method will go to CommonComponenet class and feed the PageObject class. And when required data it will go to JSON file parser and return data to HashMap and it will convert pass data to DataProvider. While executing testcase it will send results to TestNG listener and that will generate ExtentReport.
+
+
+Q. What is Mobile Web App, Native App and Hybrid App?
+    => Mobile App: Web apps are not real applications; they are actually websites that open in your smartphone with the help of a web browser. Mobile websites have the broadest audience of all the primary types of applications.
+
+    => Native App: A native app is developed specifically for one platform. I can be installed through an application store (Such as Google Play Store or App Store.)
+    => Hybrid App: Hybrid Apps a way to expose content from existing websites in App format. They can be well described as a mixture of Web App and Native app.
+
+Q. 
+
+
+
