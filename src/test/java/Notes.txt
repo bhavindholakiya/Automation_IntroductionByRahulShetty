@@ -139,6 +139,9 @@ Q. There is client requirement, we have 100 testcases and client asked us to run
 	    </classes>
 	</test>
 
+Q. Do you know what is DataProvider does in TestNG?
+=> Basically, it is helping us to drive data and pass multiple data source.
+
 Q. I know that there few errors in my test script and I don't want my framework to trigger this. What will you do?
 => I will enabled=false those testcases with the help of TestNG attributes.
 
