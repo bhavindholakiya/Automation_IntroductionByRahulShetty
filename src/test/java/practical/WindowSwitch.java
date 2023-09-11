@@ -32,10 +32,12 @@ public class WindowSwitch {
         }
         SwitchToParentWindow(ParentID);
         CloseAllOtherWindow(hList, ParentID);
+
+        //driver.quit();
     }
 
     public static boolean SwitchToRightWindow(String windowTitle, List<String> hList) {
-        for (String e : hList) {
+        /*for (String e : hList) {
             String title = driver.switchTo().window(e).getTitle();
             // Here we do check if current  window title match with expected title.
             if (title.contains(windowTitle)){
@@ -43,7 +45,14 @@ public class WindowSwitch {
                 return true;
             }
         }
-        return false;
+        return false;*/
+
+        // We can achieve same thing using JAVA Stream
+        boolean foundRightWindow = hList.stream().anyMatch(handle -> driver.switchTo().window(handle).getTitle().contains(windowTitle));
+        if (foundRightWindow){
+            System.out.println("Found right window...");
+        }
+        return foundRightWindow;
     }
 
     public static void SwitchToParentWindow(String ParentWindowID){
