@@ -309,7 +309,46 @@ Q. What is Mobile Web App, Native App and Hybrid App?
     => Native App: A native app is developed specifically for one platform. I can be installed through an application store (Such as Google Play Store or App Store.)
     => Hybrid App: Hybrid Apps a way to expose content from existing websites in App format. They can be well described as a mixture of Web App and Native app.
 
-Q. 
-
-
+-------LITMindtree Interview Quetion----------------
+Q. How many years of total experience in you have and how many years in Automation?
+Q. Which automation framework you working on?
+Q. Can you explain Framework Architecture.
+Q. What is the use of .m2 folder maven?
+Q. Are you using TestNG? What is the maven plag-in for TestNG?
+Q. Where did you implemented oops concepts in your Project Framework?
+Q. What is difference between Set and List in Java?
+Q. How do you switch between multiple windows in Selenium?
+Q. How will you handle dropdown in Selenium?
+Q. Did you have experience in API Testing?
+Q. What are the different request type and status code you handle in API Testing?
+Q. Write logic of Reversing a string without using in-built function.
+    {
+        String name = "bhavin";
+        String revName = "";
+        int len = name.length();
+        for(int i=len-1; i>=0; i--){
+            revName = revName+name.charAt(i);
+        }
+        System.out.println("Revers string name is: "+revName);
+    }
+Q. Do you know about HashMap? Can write simple logic to add some element and traverse and print it?
+Q. Open amazon.in site and at bottom there is list of country. Write epath to get country and it shold be dynamic.
+    => //div[@class='navFooterLine navFooterLinkLine navFooterPadItemLine']/ul/li/a[text()='Spain']
+Q.
+-------------------------------------------------------------------------------------------------------
+1. Get Row and Column values from an HTML WebTable 
+2. Switch to a specific window out of 100 windows and validate it 
+3. Find Broken Links in Selenium /How do you find broken links in Selenium WebDriver?
+4. What is the same-origin policy and how is it handled?
+5. What is the major difference between driver.close() and driver.quit()?
+6. How to scroll down a page using JavaScript?
+7. How to mouse hover over a web element? 
+8. What is POM (Page Object Model)?
+9. How does Selenium handle Windows-based pop-ups?
+10. How to take screenshots in WebDriver?
+11. Is there a way to type in a textbox without using sendKeys()?
+12. How to upload a file in Selenium WebDriver? 
+13. When do we use findElement() and findElements()?
+14. How do you perform drag and drop operations in WebDriver?
+15. How do you deal with stale element exceptions in Selenium?
 
