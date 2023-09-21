@@ -302,6 +302,8 @@ Q. Explain Framework Architecture.
 
 While executing testcase it will go to Page Object file when required locators and action method. If required any reusable method will go to CommonComponenet class and feed the PageObject class. And when required data it will go to JSON file parser and return data to HashMap and it will convert pass data to DataProvider. While executing testcase it will send results to TestNG listener and that will generate ExtentReport.
 
+Q. What is Object Repository in Selenium Framework?
+⇒ Object Repository is a collection of all the WebElement OR Web Objects.
 
 Q. What is Mobile Web App, Native App and Hybrid App?
     => Mobile App: Web apps are not real applications; they are actually websites that open in your smartphone with the help of a web browser. Mobile websites have the broadest audience of all the primary types of applications.
