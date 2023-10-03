@@ -3,7 +3,7 @@ package JavaPrograms;
 public class StringOccurance {
     public static void main(String[] args) {
         String inputString = "This is testing string and testing is not easy for testing";
-        String[] expArr = {"Testing", "is", "not"};
+        String[] expArr = {"Testing", "is", "not", "Jay"};
 
         System.out.println("---------------------------------------------------------");
         CheckOccurrence(inputString, expArr);
