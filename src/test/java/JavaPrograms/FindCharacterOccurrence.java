@@ -1,5 +1,6 @@
 package JavaPrograms;
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class FindCharacterOccurrence {
@@ -13,6 +14,7 @@ public class FindCharacterOccurrence {
     	FindCharacterOccurrence FC = new FindCharacterOccurrence();
     	FC.TraditionalMethod(s, ch);
     	FC.UsingStream(s, ch);
+        FC.UsingHashMap(s);
     }
 
     public void TraditionalMethod(String s, char inputChar){
@@ -30,5 +32,22 @@ public class FindCharacterOccurrence {
     	System.out.println("============ JAVA 8 Features =====================");
     	long count = s.chars().filter(ch -> ch == inputChar).count();
     	System.out.println("Occurrence of "+inputChar+ " is " +count);
+    }
+
+    public void UsingHashMap(String s){
+        System.out.println("============ Using HashMap =====================");
+        HashMap<Character, Integer> charFreqMap = new HashMap<>();
+
+        // Count the frequency of each character
+        for (char ch : s.toCharArray()) {
+            int count = charFreqMap.getOrDefault(ch, 0);
+            charFreqMap.put(ch, count + 1);
+        }
+
+        // Print the character frequencies
+        for (char ch : charFreqMap.keySet()) {
+            int count = charFreqMap.get(ch);
+            System.out.println("'" + ch + "' occurs " + count + " times");
+        }
     }
 }
