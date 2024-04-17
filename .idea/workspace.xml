@@ -8,9 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="achieve Abstraction in Java">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaBasics/UseOfThisKeyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrograms/CheckRouterAdminLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrograms/ReturnNonDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +70,13 @@
       <recent name="practical" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseOfThisKeyword">
-    <configuration name="HashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.HashMapDemo" />
+  <component name="RunManager" selected="Application.ReturnNonDuplicate">
+    <configuration name="CheckRouterAdminLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPrograms.CheckRouterAdminLink" />
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaBasics.*" />
+          <option name="PATTERN" value="JavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,6 +90,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="WebDriverListeners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReturnNonDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPrograms.ReturnNonDuplicate" />
+      <module name="Automation_IntroductionByRahulShetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,38 +136,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMap.streamMap" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_IntroductionByRahulShetty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaStream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JavaStream" />
-      <option name="MAIN_CLASS_NAME" value="JavaStream.StreamMap" />
-      <option name="METHOD_NAME" value="streamMap" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.ReturnNonDuplicate" />
+      <item itemvalue="Application.CheckRouterAdminLink" />
       <item itemvalue="Application.UseOfThisKeyword" />
-      <item itemvalue="Application.HashMapDemo" />
       <item itemvalue="Application.ListenerMainClass" />
       <item itemvalue="Application.Scooter" />
-      <item itemvalue="TestNG.StreamMap.streamMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReturnNonDuplicate" />
+        <item itemvalue="Application.CheckRouterAdminLink" />
         <item itemvalue="Application.UseOfThisKeyword" />
         <item itemvalue="Application.Scooter" />
         <item itemvalue="Application.ListenerMainClass" />
-        <item itemvalue="Application.HashMapDemo" />
-        <item itemvalue="TestNG.StreamMap.streamMap" />
       </list>
     </recent_temporary>
   </component>
