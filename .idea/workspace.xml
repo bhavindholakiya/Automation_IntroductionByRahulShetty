@@ -7,11 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="achieve Abstraction in Java">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrograms/CheckRouterAdminLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrograms/ReturnNonDuplicate.java" afterDir="false" />
+    <list default="true" id="b33ac9e9-b62f-403f-bd57-6066cfc38885" name="Changes" comment="Add code using HashMap to find character occurrence">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrograms/PrintOccurrenceInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrograms/SwapValueWithoutThirdVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaPrograms/CheckRouterAdminLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaPrograms/CheckRouterAdminLink.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +47,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Automation/OnlineShopping&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.PrintOccurrenceInString.executor": "Run",
+    "Application.SwapValueWithoutThirdVariable.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projects/TestTendable",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Automation\Automation_IntroductionByRahulShetty\src\main\resources" />
@@ -70,7 +75,7 @@
       <recent name="practical" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReturnNonDuplicate">
+  <component name="RunManager" selected="Application.SwapValueWithoutThirdVariable">
     <configuration name="CheckRouterAdminLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaPrograms.CheckRouterAdminLink" />
       <module name="Automation_IntroductionByRahulShetty" />
@@ -84,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListenerMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WebDriverListeners.ListenerMainClass" />
+    <configuration name="PrintOccurrenceInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPrograms.PrintOccurrenceInString" />
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WebDriverListeners.*" />
+          <option name="PATTERN" value="JavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scooter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstraction.Scooter" />
+    <configuration name="SwapValueWithoutThirdVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPrograms.SwapValueWithoutThirdVariable" />
       <module name="Automation_IntroductionByRahulShetty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Abstraction.*" />
+          <option name="PATTERN" value="JavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,19 +142,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.PrintOccurrenceInString" />
+      <item itemvalue="Application.SwapValueWithoutThirdVariable" />
       <item itemvalue="Application.ReturnNonDuplicate" />
       <item itemvalue="Application.CheckRouterAdminLink" />
       <item itemvalue="Application.UseOfThisKeyword" />
-      <item itemvalue="Application.ListenerMainClass" />
-      <item itemvalue="Application.Scooter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwapValueWithoutThirdVariable" />
+        <item itemvalue="Application.PrintOccurrenceInString" />
         <item itemvalue="Application.ReturnNonDuplicate" />
         <item itemvalue="Application.CheckRouterAdminLink" />
         <item itemvalue="Application.UseOfThisKeyword" />
-        <item itemvalue="Application.Scooter" />
-        <item itemvalue="Application.ListenerMainClass" />
       </list>
     </recent_temporary>
   </component>
